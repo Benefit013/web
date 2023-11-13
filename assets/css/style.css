@@ -1,0 +1,57 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+#navbar{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: purple;
+    color: white;
+    padding: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    align-items: center;
+    height: 65px;
+    margin-top: 0;
+    
+
+}
+
+
+.nav-links ,ul{
+    list-style-type: none;
+    display: flex;
+
+
+}
+
+.nav-links ,ul,li{
+    padding: 10px;
+    cursor: pointer;
+    text-shadow: 0 20px 0 1;
+
+}
+
+/*hero style starts here*/
+.hero-container{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px;
+    justify-content: center;
+
+}
+
+.hero-small-container{
+    width: 400px;
+    height: 400px;
+    margin: 15px;
+    padding: 15px;
+    
+}
+
+
+
+
+
